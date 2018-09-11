@@ -2,7 +2,7 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/magento/magento2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/magento-2/localized.png)](https://crowdin.com/project/magento-2)
 <h2>Welcome</h2>
-Welcome to Magento 2 installation! This repo is for installation of Magento 2 on DigitalOcean running Ubuntu 16.04. For more information about Magento 2, take a look at the original repo here. [https://github.com/magento/magento2](https://github.com/magento/magento2)
+Welcome to Magento 2 installation! This repo is for installation of Magento 2 on DigitalOcean running Ubuntu 16.04. For more information about Magento 2, take a look at the original repo here. [https://github.com/magento/magento2](https://github.com/magento/magento2) - Retested on Version 2.2.5 and still the LAMP droplet on 16.04.
 
 
 ## Basic requirements
@@ -67,7 +67,7 @@ memory_limit = 512M
 ```
 then run these:
 ```
-sudo apt-get install php7.0-curl php7.0-gd php7.0-mcrypt php-xml php7.0-soap php7.0-intl php7.0-zip php7.0-mbstring
+sudo apt-get install php7.0-curl php7.0-gd php7.0-mcrypt php-xml php7.0-soap php7.0-bcmath php7.0-intl php7.0-zip php7.0-mbstring
 sudo phpenmod mcrypt
 ```
 
